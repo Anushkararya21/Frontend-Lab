@@ -1,0 +1,59 @@
+h1{
+    font-family:Arial,sans-serif;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Border Properties*/
+h1{
+    /* border-style:solid;
+    border-width:5px;
+    border-color: hsl(274, 37%, 31%); */
+    border: 5px solid hsl(274, 37%, 31%);
+    border-radius: 50px;
+}
+p{
+    border-bottom: 3px dotted hsl(321, 67%, 33%);
+    border-top: 3px dotted hsl(223, 67%, 38%);
+    border-left: 3px solid hsl(274, 37%, 31%);
+    border-right: 3px solid hsl(66, 65%, 40%);
+    border-radius: 10px;
+}
+
+/*Shadows*/
+h1{
+    text-shadow: 3px 5px 7px hsl(323, 75%, 29%);
+}
+/*
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(227, 197, 27);
+    box-shadow: 3px 3px 10px hsl(237, 99%, 52%);
+}
+*/
+
+/*Margins*/
+body{
+    margin: 0px;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+#box1{
+    background-color: rgb(227, 27, 80);
+}
+
+#box2{
+    background-color: rgb(27, 227, 80);
+}

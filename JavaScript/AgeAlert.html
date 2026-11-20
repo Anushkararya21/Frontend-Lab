@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Alert</title>
+</head>
+<body>
+     <h2>Age eligibility check for Navratri</h2>
+    <script>
+        /*
+        let age = prompt("Enter your age:");
+        age = Number(age);
+        if((age >= 18 && Number.isInteger(age)) && Number.isFinite(age)) {
+            alert("You are an adult.");
+        } 
+        else {
+            alert("You are a minor.");
+        }*/
+
+        let date = prompt("Enter your date (YYYY-MM-DD):");
+
+        date = Number(date);
+        if(date>0 && Number.isInteger(date) && Number.isFinite(date)){
+            if(date>11 && date<19){
+                alert("You are allowed to come.");
+            } 
+            else {
+                alert("You are not allowed to come.");
+            }
+        } 
+    </script>
+</body>
+</html>
