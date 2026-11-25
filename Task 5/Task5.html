@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+   <p>how u doing:</p>
+   <p>Your age is :</p>
+</body>
+<script>
+    let age=prompt("Enter your age :");
+age=Number(age);
+let c=0;
+if(age>0&&Number.isInteger(age)&&Number.isFinite(age)){
+    if(age>=18){
+        console.log("elegible for vote");
+        c=1;
+    }
+    else {
+        console.log("not elgible for vote");
+    }}
+    var res=c==1?"elegible for vote":"not elgible for vote";
+    
+    alert(res);
+
+</script>
+</html>

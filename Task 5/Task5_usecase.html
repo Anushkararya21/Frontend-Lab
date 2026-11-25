@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let date=prompt("Enter your date of arrival :");
+    date=Number(date);
+    let c=0;
+    if(date>0&&Number.isInteger(date)&&Number.isFinite(date)){
+        if(date<=18&&date>=11){
+            console.log("elegible for Garba Night");
+            c=1;
+        }
+        else {
+            console.log("not elgible for Garba Night");
+        }}
+        var res=c==1?"elegible for Garba Night":"not elgible for Garba Night";
+        
+        alert(res);
+</script>
+</html>

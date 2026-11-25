@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>University Finder</title>
+
+<link rel="stylesheet" href="task10.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>University Finder</h2>
+
+        <p>Enter a country name to find its universities with link.</p>
+
+        <input type="text" id="country" placeholder="Enter country name">
+
+        <button onclick="getUniversities()">Search</button>
+
+        <p id="message"></p>
+
+        <table id="resultTable" style="display:none">
+
+            <thead>
+                <tr>
+                    <th>University Name</th>
+                    <th>Website</th>
+                    <th>University Link</th>
+                </tr>
+            </thead>
+
+            <tbody id="universityData"></tbody>
+
+        </table>
+
+    </div>
+<script src="Task10.js"></script>
+</body>
+</html>
